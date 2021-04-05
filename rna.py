@@ -13,4 +13,4 @@ for i in range(len(dna)):
         rna += 'U'    
 print("Your RNA is: " + rna )
 
-print(rna[0:len(rna):3])
+print("Codon: " + rna[0:len(rna):3])
